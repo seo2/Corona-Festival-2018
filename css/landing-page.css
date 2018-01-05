@@ -1,0 +1,629 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Helvetica,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'bold';
+    src: url('../fonts/SamsungSharpSans-Bold.eot') format('embedded-opentype'), 
+        url('../fonts/SamsungSharpSans-Bold.woff') format('woff'),
+        url('../fonts/SamsungSharpSans-Bold.ttf') format('truetype'),
+        url('../fonts/SamsungSharpSans-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica-Black';
+    src: url('../fonts/Helvetica-Black.eot') format('embedded-opentype'), 
+        url('../fonts/Helvetica-Black.woff') format('woff'),
+        url('../fonts/Helvetica-Black.woff2') format('woff2'),
+        url('../fonts/Helvetica-Black.ttf') format('truetype'),
+        url('../fonts/Helvetica-Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.btnnone{
+    background: transparent !important;
+    border: none !important;
+    text-transform: uppercase !important;
+}
+@media (min-width: 1200px){
+    .intro-header {
+
+        height: 110%; /* IAN */
+    }
+
+
+}
+.flecha{
+    margin-top: 13px;
+    margin-bottom: -13px;
+}
+.w800{
+    width: 800px;
+}
+.mgtopbot{
+    margin: 2.5% 0px;
+}
+.anchohr2{
+    width: 26%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.txtcenter{
+    text-align: center;
+}
+.black{
+    color: black !important;
+}
+.l2 {
+
+    border-top: 1px solid #000;
+}
+.padtxt{
+    text-align: center;
+    padding: 10px; /* IAN */
+}
+.padheader{
+    padding: 5% 0px;
+}
+.topnav {
+    font-size: 14px; 
+}
+.font30{
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: 15px;
+}
+.anchohr3{
+    width: 31%;
+}
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+.mgtopbot2 {
+    margin: 0.5% 0px;
+}
+.upper{
+    text-transform: uppercase;
+}
+.intro-header {
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8; 
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+.ticket-main{
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.intro-header-inicio {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8; 
+    background: url(../img/bgcorona.jpg) no-repeat center center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+.intro-header-intro {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8; 
+    background: url(../img/bgintro.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgazul{
+    background: url(../img/fondoazul.png) no-repeat center top;
+
+    padding: 64px 0px;;
+}
+.amarillo:hover{
+    color: #f8b428;
+    text-decoration: none !important;
+}
+.font54{
+
+    color: #f8b428;
+    letter-spacing: 37px;
+
+}
+.minimarg{
+    margin-top: 15px;
+
+}
+.mgtopbot1{
+    margin: 6.5% 0px;
+}
+.font12{
+    font-size: 12px;
+    cursor: pointer;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: white;
+}
+.inputform{
+    outline: none !important;
+    overflow: hidden;
+    text-align: center;
+    line-height: normal;
+    background: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    margin: 4px;
+}
+.boxcontinue{
+    border: 1px solid;
+    width: 137px;
+    margin: 22px auto;
+    cursor: pointer;
+}
+.altobtn{
+    height:  65px !important;
+    padding-top: 16px;
+}
+.w50{
+    width: 50%;
+    margin: 0 auto;
+}
+.amarillo{
+    color: #f8b428;
+}
+.font18{
+    font-size: 17px;
+    letter-spacing: 4px;
+    color: #fff;
+}
+.anchohr{
+    width: 185px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.font23{
+    font-size: 23px;
+    letter-spacing: 4px;
+    color: #fff;
+}
+.intro-message {
+    position: relative;
+    padding-top: 0%;
+    padding-bottom: 20%;
+}
+.intro-message1 {
+    position: relative;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.intro-message-inicio {
+    position: relative;
+    padding-top: 0%; 
+}
+#paso2{
+    display: none;
+}
+.white{
+    color: white;
+    cursor: pointer;
+}
+.white:hover{
+    cursor: pointer;
+    color: white;
+}
+.btn-default{
+    color: #f8b428;
+    background-color: rgba(28,43,56,0.6);
+    border-color: #f8b428;
+    width: 100%;
+    height: 90px;
+    border-radius: 0;
+    font-family: 'Helvetica-Black', sans-serif;
+}
+.btn-default:hover {
+    opacity: 0.5;
+    color: #f8b428;
+    background-color: rgba(28,43,56,0.6);
+    border-color: #f8b428;
+}
+.mgtop10{
+    margin-top: 10px;
+}
+.boximg2{
+    line-height: 10px;
+    width: 250px;
+    margin: 0 auto;
+/*     padding-top: 27px; */
+}
+.boximg{
+
+    line-height: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+.entrelineado{
+    line-height: 20px;
+}
+/* --- Inicio Capstick --- */
+.lineup-main .titulo{
+    margin-top: 30px; /* IAN */
+}
+.lineup-main .titulo h2 {
+    font-size: 55px;
+    color: #fdb827;
+    letter-spacing: 12px;
+    text-align: center;
+}
+.lineup-main .titulo h5 {
+    font-size: 18px;
+    text-align: center;
+}
+.lineup-main .titulo span.linea{
+    width: 90%;
+    max-width: 360px;
+    height: 1px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px; /* IAN */
+}
+.nuevo-lineup.intro-message{}
+.nuevo-lineup.intro-message .col-lg-4{
+    padding: 3px;
+}
+.nuevo-lineup.intro-message p{
+    position: absolute;
+    z-index: 2;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    bottom: 0px; /* IAN */
+    font-size: 9px; /* IAN */
+    text-align: left; /* IAN */ 
+    text-transform: uppercase;
+    font-family: Helvetica,"Helvetica Neue",Arial,sans-serif;
+    
+}
+.nuevo-lineup.intro-message p.font30{
+    top: 75px;
+    bottom: initial;
+    font-size: 18px;
+    font-family: 'Helvetica-Black';
+    letter-spacing: 7px;
+}
+.nuevo-lineup.intro-message img{
+    width: 100%;
+}
+.fondo-white{
+    background-color: white;
+    text-align: center;
+}
+.fondo-white .row{
+    max-width: 1010px;
+    display: inline-block;
+}
+.fondo-white .black {
+    color: #092b49 !important;
+}
+.fondo-white .l2 {
+    border-top: 1px solid #092b49;
+}
+.fondo-white .lead{
+    color: #092b49;
+}
+.fondo-white .amarillo{
+    color: #ffc601;
+}
+.desktop {
+    display: inline-block;
+}
+.mobile{
+    display: none;
+}
+
+.font23.upper img{
+        width: 60%; /* IAN */
+    }
+@media (max-width:1180px){
+    .nuevo-lineup.intro-message p.font30{
+        top: 125px;
+    }
+}
+@media(max-width:1000px) {
+    .nuevo-lineup.intro-message p.font30{
+        bottom: 55px;
+        top: initial;
+    }
+    .font23.upper img{
+        width: 80%;
+    }
+}
+@media (max-width:550px){
+    .nuevo-lineup.intro-message p.font30{
+        top: 15px;
+        font-size: 14px;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile{
+        display: inline-block;
+    }
+    .font23.upper img{
+        width: 80%; /* IAN */
+    }
+}
+/* --- Fin Capstick --- */
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+    .mgmobile{
+        margin: 8% 0 0px;
+    }
+    .font20{
+        font-size: 20px;
+    }
+    .font11{
+        font-size: 11px; 
+    }
+    .foto{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .btn-default,.boximg {  
+        width: 190px;
+        padding-bottom: 13px;
+    }
+    .intro-header { 
+        background-size: cover;
+    }
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+    h3.mgtopbot{
+        font-size: 20px;
+    }
+    .txt-mobile{
+        font-size: 20px;
+    }
+}
+
+.mgtop{
+    display: inline-block;
+    margin-top: 19px;
+}
+.mgtop2{
+    display: inline-block;
+
+}
+.network-name {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+.sub{
+    vertical-align: sub;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+.force-bottom{
+    position: absolute;
+    width: 250px;
+    left: 50%;
+    margin-left: -125px;
+    text-align: center;
+    bottom: 10px;
+}
+.footer-xs{
+    padding-top: 35px;
+}
+.force-bottom-xs{
+    position: relative;
+    width: 250px;
+    left: 50%;
+    margin-left: -125px;
+    text-align: center;
+    bottom: -10px;
+}
+select option{
+    background-color: #000;
+}
+.well-title {
+    margin-bottom: 40px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    color: #fff !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center; 
+    color: #fff !important
+}
+::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center; 
+    color: #fff !important
+}
+:-ms-input-placeholder {  
+    text-align: center; 
+    color: #fff !important
+}
+.input-custom{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    text-align: center;
+}
+.form-group .form-control:focus {
+    border-color: transparent;
+    border-bottom: 1px solid #fff;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px transparent, 0 0 8px transparent;
+    box-shadow: inset 0 1px 1px transparent, 0 0 8px transparent;
+}
+@media (min-width: 320px) and (max-width: 479px){
+    .network-name {
+        font-size: 12px !important;
+    }
+    .one-net{
+        line-height: 33px;
+    }
+    .lineup-header-pad{
+        margin-top: 100px;
+    }
+    .mgtop-one{
+        margin-top: 0px !important;
+    }
+}
+.lineup-main{
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mgtop-one{
+    display: inline-block;
+    margin-top: 19px;
+}
