@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 /*
  * Start Bootstrap - Landing Page (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
@@ -17,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Helvetica,"Helvetica Neue",Arial,sans-serif;
+    font-family: "Raleway",sans-serif;
     font-weight: 700;
 }
 @font-face {
@@ -46,14 +47,8 @@ h6 {
     border: none !important;
     text-transform: uppercase !important;
 }
-@media (min-width: 1200px){
-    .intro-header {
-
-        height: 110%; /* IAN */
-    }
 
 
-}
 .flecha{
     margin-top: 13px;
     margin-bottom: -13px;
@@ -109,17 +104,29 @@ h6 {
     text-transform: uppercase;
 }
 .intro-header {
-    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8; 
-    background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
-
     background-attachment: fixed;
 }
-.ticket-main{
+#festival{
     background: url(../img/intro-bg.jpg) no-repeat center center;
+}
+#guanaqueros {
+
+}
+#guanaqueros .intro-header{
+    padding-bottom: 50px;
+    min-height: 100%;
+    margin-bottom: 50px;    
+    background: url(../img/bg-interior.jpg) no-repeat center center;
+    background-size: cover;
+}
+h1.informacion{ border-bottom: 2px solid #092b49; border-top: 2px solid #092b49; padding: 12px 0 10px; display: inline-block; margin-bottom: 50px;}
+
+.lineup{margin: 50px auto;}
+
+.ticket-main{
     background-size: cover;
     background-attachment: fixed;
 }
@@ -234,6 +241,13 @@ h6 {
     padding-top: 0%;
     padding-bottom: 0%;
 }
+.intro-message1 h1{
+    text-transform: uppercase;
+    color: #ffc72c;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
 .intro-message-inicio {
     position: relative;
     padding-top: 0%; 
@@ -250,18 +264,18 @@ h6 {
     color: white;
 }
 .btn-default{
-    color: #f8b428;
-    background-color: rgba(28,43,56,0.6);
-    border-color: #f8b428;
+    color: #fff;
+    border-color: #fff;
+    background: transparent;
     width: 100%;
-    height: 90px;
+    height: 60px;
     border-radius: 0;
-    font-family: 'Helvetica-Black', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
 }
 .btn-default:hover {
-    opacity: 0.5;
-    color: #f8b428;
-    background-color: rgba(28,43,56,0.6);
+    color: #fff;
+    background-color: transparent;
     border-color: #f8b428;
 }
 .mgtop10{
@@ -445,6 +459,7 @@ h6 {
     .btn-default,.boximg {  
         width: 190px;
         padding-bottom: 13px;
+        margin-bottom: 10px;
     }
     .intro-header { 
         background-size: cover;
@@ -626,4 +641,73 @@ select option{
 .mgtop-one{
     display: inline-block;
     margin-top: 19px;
+}
+
+/* HOME */
+#home{}
+#home .row{height: 100%;}
+
+
+#home .row #agegate{height: 100%; background: #0c2340;}
+#home .row #agegate .cta h1{color: #ffc72c; margin: 50px 40px 20px; }
+#home .row #voluntarios{height: 100%; background: #25364c url(../img/bg-voluntarios.jpg) no-repeat left bottom;background-size: cover;}
+#home .row #festival{height: 100%; background: #d4ad3f url(../img/bg-festival.jpg) no-repeat left bottom;background-size: cover;}
+#home .cta{ position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%); text-align: center;}
+#home .cta img{display: inline-block; margin: 0 auto;}
+#home .cta h1{color: #fff; text-transform: uppercase; font-size: 20px; margin-bottom: 30px; line-height: 150%; }
+#home .cta .btn-default { height: 40px; line-height: 20px;}
+#home .row #festival .cta .btn-default:hover{border-color: #25364c;}
+#homerow{margin: 0;}
+
+
+.baja { margin: 60px auto 0; display: inherit;}
+
+.lineup img{margin: 0 auto;}
+
+#lineup h1{color: #ffc72c; margin-bottom: 30px;}
+#lineup p{line-height: 170%; font-size: 16px; margin-bottom: 30px;}
+#guanaqueros .intro-header#lineupinterior {    margin-bottom: 0;}
+
+.carousel-control.right {
+    background-image: url(../img/btn-next.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.carousel-control.left {
+    background-image: url(../img/btn-prev.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.logo{margin: 0 auto;}
+
+@media (max-width:768px){
+	#home .row #voluntarios{height: 50%; }
+	#home .row #festival{height: 50%;}
+	#home .cta{width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+	#home .cta .btn-default{width: 100%;}
+	
+	
+	
+	.volver{height: 50px;display: inherit;}
+	
+	.lineup { margin: 30px auto; }
+	
+	#lineup h1 {
+	    margin-bottom: 20px;
+	    font-size: 20px;
+	    clear: both;
+	    text-align: center;
+	    padding-top: 20px;
+	}
+	#lineup p {
+	    font-size: 12px;
+	    margin-bottom: 10px;
+	    text-align: center;
+	}
+	
+	.baja { margin: 10px auto; }
+	.carousel-control.right,  .carousel-control.left { background-position: center; }
+
 }
